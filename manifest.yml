@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Steve1
+  host: Steve1
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-zd
+  - Weather Company Data-lt
+  - performance-monitoring-auto
